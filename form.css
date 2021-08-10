@@ -1,0 +1,126 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+body{
+    text-align: center;
+    align-items: center;
+    align-items: flex-start;
+    display: flex;
+}
+h1{
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+}
+h2{
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+}
+label{
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 10px;
+    text-align: left;
+    opacity: 70%;
+
+}
+button{
+    text-align: center;
+    cursor: pointer;
+    border: 0px;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0.4rem;
+    width: 80%;
+    height: 40%;
+    font-family: "Poppins", sans-serif;
+}
+.linha{
+    opacity: 50%;
+    margin-bottom: 25px;
+}
+#enviar{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-weight: 400px;
+
+    color: whitesmoke;
+    background-color: rebeccapurple;
+    align-items: center;
+    text-align: center;
+    margin-left: 40px;
+
+}
+#semconta{
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(0,0,0,0.7);
+    font-size: 0.9rem;
+    text-align: center;
+    font-weight: 400px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#criar{
+    margin-top: 2px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    border-radius: 5px;
+    color: whitesmoke;
+    align-items: center;
+    background-color: #56a7f2;
+}
+
+.infos{
+    text-align: left;
+}
+input{
+    outline: none;
+    font-family: 'Open Sans', sans-serif;  
+    font-size: 18px;
+    border: 0px;
+    text-align: left;
+    margin-top: 20px;
+    width: 400px;
+    height: 80%;
+    color: rgba(0,0,0,0.7);
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+main.quadrado {
+    margin-top: 9%;
+    text-align: center;
+    background: white;
+    width: 400px;
+    min-height: 40vh;
+    padding: 2rem;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    margin-left: 34%;
+}
+main h2 {
+    font-weight: 600;
+    margin-bottom: 2rem;
+    position: relative;
+    text-align: left;
+}
+main h2::before{
+    content:'';
+    position: absolute;
+    height: 4px;
+    width: 25px;
+    bottom: 3px;
+    left:0;
+    border-radius: 8px;
+    background: linear-gradient(45deg, #8e2de2, #4a00e0);
+}
+section.images{
+    display: flex;
+    align-items: flex-end;
+}
+
+section.images img{
+    margin-top: 40%;
+    margin-right: 120px;
+    width: 90%;
+}
+
