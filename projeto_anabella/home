@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Página inicial</title>
+        <link rel="stylesheet" href="home.css"/>
+    </head>
+    <body background="imagens/fundo.png">
+    <div id="principal">
+        <img src="imagens/capa.png">
+        <div id="tabelanav">
+ 
+ 
+            <a href="home.html">HOME</a> |
+            <a href="biografia.html">BIOGRAFIA</a> |
+            <a href="campanhas.html">CAMPANHAS PUBLICITÁRIAS</a> |
+            <a href="contato.html">CONTATO </a>
+
+        </div>
+        <div id ="texto">
+            <h1 id="sobre">Sobre Anabella</h1>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla hendrerit tellus, sit amet facilisis ante euismod vel. Vestibulum sagittis rhoncus scelerisque. Quisque arcu diam, sollicitudin et sollicitudin at, eleifend sed mi. Cras id volutpat sem. Etiam pretium sapien id est laoreet, in fermentum sem laoreet. Phasellus pulvinar augue aliquet justo fringilla lobortis. Ut et rhoncus leo. Aliquam ut malesuada augue, in placerat leo. Suspendisse interdum leo sem, non tincidunt ipsum finibus consequat. Sed convallis diam odio, sit amet porttitor tortor volutpat ut. Pellentesque ac dolor felis.
+
+                Vivamus sodales at odio et consectetur. Nulla vehicula risus justo, et luctus nunc blandit a. Integer venenatis dapibus augue et pulvinar. Ut sed scelerisque mi. Cras sed felis nunc. Proin tempor massa odio, quis accumsan odio pharetra a. Quisque congue efficitur eros tincidunt commodo. Maecenas et volutpat quam. Vestibulum ullamcorper neque ut tellus rutrum condimentum eget vitae erat. Maecenas volutpat varius interdum. Maecenas dui eros, ultricies fringilla risus vel, mollis lacinia massa.   
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla hendrerit tellus, sit amet facilisis ante euismod vel. Vestibulum sagittis rhoncus scelerisque. Quisque arcu diam, sollicitudin et sollicitudin at, eleifend sed mi. Cras id volutpat sem. Etiam pretium sapien id est laoreet, in fermentum sem laoreet. Phasellus pulvinar augue aliquet justo fringilla lobortis. Ut et rhoncus leo. Aliquam ut malesuada augue, in placerat leo. Suspendisse interdum leo sem, non tincidunt ipsum finibus consequat. Sed convallis diam odio, sit amet porttitor tortor volutpat ut. Pellentesque ac dolor felis.
+
+                Vivamus sodales at odio et consectetur. Nulla vehicula risus justo, et luctus nunc blandit a. Integer venenatis dapibus augue et pulvinar. Ut sed scelerisque mi. Cras sed felis nunc. Proin tempor massa odio, quis accumsan odio pharetra a. Quisque congue efficitur eros tincidunt commodo. Maecenas et volutpat quam. Vestibulum ullamcorper neque ut tellus rutrum condimentum eget vitae erat. Maecenas volutpat varius interdum. Maecenas dui eros, ultricies fringilla risus vel, mollis lacinia massa.
+            </p>
+        </div>
+        
+        <div id="fim">
+           <h4 class="centralizar">Todos os direitos reservados</h4> 
+        </div>
+    </div>
+    </body>
+</html>
