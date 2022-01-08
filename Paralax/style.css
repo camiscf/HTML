@@ -1,0 +1,62 @@
+body, html{
+    margin: 0;
+    font: 16px "Lato", sans-serif;
+    color: #F44336;
+    height: 100%;
+
+}
+.conteudo{
+    color: #B71C1C;
+    background-color: #212121;
+    text-align: justify;
+    padding:  50px 80px;
+}
+
+h3{
+    text-transform: uppercase;
+    color: #F44336;
+    text-align: center;
+}
+p{
+    margin-bottom: 20px;
+}
+/* EFEITO PARALLAX */
+.caixa1, .caixa2, .caixa3, .caixa4{
+    height: 100%;
+    position: relative;
+    opacity: 0.85;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.caixa1{
+    background-image: url(/imagens/miles-morales-art-new-2019-2v-1366x768.jpg);
+}
+.caixa2{
+    background-image: url(/imagens/marvel-spider-man-no-way-home-4k-ua-1366x768.jpg);
+}
+.caixa3{
+    background-image: url(/imagens/imagem44.jpg);
+}
+.caixa4{
+    background-image: url(/imagens/imagem55.jpg);
+}
+/* CONTEUDOS DO PARALLAX */
+.conteudo-titulo{
+    position: absolute;
+    left: 0;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+    text-transform:uppercase ;
+
+}
+
+.conteudo-titulo span.titulo{
+    background-color: #616161;
+    padding:18px;
+    font-size: 25px;
+    letter-spacing: 5px;
+    color: #F5F5F5;
+}
